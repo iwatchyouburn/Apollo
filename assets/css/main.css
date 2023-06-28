@@ -1227,7 +1227,7 @@ svg path {
     position: relative;
     width: 1440px;
     max-width: 95%;
-    height: 600px;
+    height: 800px;
     margin: 30px auto;
     background-color: #efefef;
     overflow: hidden
@@ -1407,3 +1407,31 @@ svg path {
     font-family: "Raleway", Helvetica, sans-serif;
     font-size: 12px
 }
+
+@media (max-width: 640px){
+#map { 
+    height:180px;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    border-radius: 0.2rem;
+    border-color: #020202;
+    border-width: 0.12rem;
+    border-style: solid;
+}
+}
+
+@media (min-width: 640px){
+    #map { 
+        height:250px;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        margin-left:0;
+        border-radius: 0.2rem;
+        border-color: #020202;
+        border-width: 0.12rem;
+        border-style: solid;
+    }
+    }

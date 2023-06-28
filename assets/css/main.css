@@ -1227,7 +1227,7 @@ svg path {
     position: relative;
     width: 1440px;
     max-width: 95%;
-    height: 800px;
+    height: 1000px;
     margin: 30px auto;
     background-color: #efefef;
     overflow: hidden
@@ -1247,7 +1247,7 @@ svg path {
     display: flex;
     width: 1180px;
     max-width: 95%;
-    height: 100%;
+    height: 90%;
     margin: 0 auto;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -1410,28 +1410,28 @@ svg path {
 
 @media (max-width: 640px){
 #map { 
-    height:180px;
+    height:100%;
     width: 100%;
     margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 0;
+    margin-bottom: 5rem;
     border-radius: 0.2rem;
     border-color: #020202;
     border-width: 0.12rem;
     border-style: solid;
+    display: inline-block;
 }
 }
 
 @media (min-width: 640px){
     #map { 
-        height:250px;
-        width: 100%;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-        margin-left:0;
+        height:80%;
+        width: 75%;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
         border-radius: 0.2rem;
         border-color: #020202;
         border-width: 0.12rem;
         border-style: solid;
+        display: inline-block;
     }
     }
